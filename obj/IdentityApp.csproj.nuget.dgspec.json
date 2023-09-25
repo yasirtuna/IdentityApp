@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sadikturan/Desktop/IdentityApp/IdentityApp.csproj": {}
+    "/Users/sadikturan/Desktop/aspnetcore-dersleri/IdentityApp/IdentityApp.csproj": {}
   },
   "projects": {
-    "/Users/sadikturan/Desktop/IdentityApp/IdentityApp.csproj": {
+    "/Users/sadikturan/Desktop/aspnetcore-dersleri/IdentityApp/IdentityApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sadikturan/Desktop/IdentityApp/IdentityApp.csproj",
+        "projectUniqueName": "/Users/sadikturan/Desktop/aspnetcore-dersleri/IdentityApp/IdentityApp.csproj",
         "projectName": "IdentityApp",
-        "projectPath": "/Users/sadikturan/Desktop/IdentityApp/IdentityApp.csproj",
+        "projectPath": "/Users/sadikturan/Desktop/aspnetcore-dersleri/IdentityApp/IdentityApp.csproj",
         "packagesPath": "/Users/sadikturan/.nuget/packages/",
-        "outputPath": "/Users/sadikturan/Desktop/IdentityApp/obj/",
+        "outputPath": "/Users/sadikturan/Desktop/aspnetcore-dersleri/IdentityApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sadikturan/.nuget/NuGet/NuGet.Config"
@@ -39,6 +39,12 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.11, )"
             },
